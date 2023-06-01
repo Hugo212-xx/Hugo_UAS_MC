@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="Login"
+            android:textColor="@color/purple_700"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+        <EditText
+            android:id="@+id/login_username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/profile_icon"
+            android:drawablePadding="8dp"
+            android:hint="Username"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"/>
+
+        <EditText
+            android:id="@+id/login_password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:drawableRight="@drawable/password_icon"
+            android:drawablePadding="8dp"
+            android:hint="@string/password"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textColorHighlight="@color/cardview_dark_background"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/purple_700"
+            android:text="Login"
+            app:cornerRadius="20dp" />
+
+        <TextView
+            android:id="@+id/lupa_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:text="Lupa Password?"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/white"
+            android:text="Register"
+            android:textSize="15sp"
+            android:textColor="@color/purple_700"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed-light"
+            app:cornerRadius="20dp" />
+
+    </LinearLayout>
+</LinearLayout>

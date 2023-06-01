@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "984090681492",
+    "project_id": "tugas-uas-mobile-computing",
+    "storage_bucket": "tugas-uas-mobile-computing.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984090681492:android:1f19ca5e1ee1ec08375481",
+        "android_client_info": {
+          "package_name": "com.example.hugoworumi_20411099_uts_mc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCSkMXLCt7P_U2ZfISiRCOY_mjcE4ug-T0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
